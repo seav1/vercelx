@@ -1,6 +1,6 @@
 # nhost.toml
 [functions]
-entrypoint="functions/index.js"
+entrypoint="/functions/index.js"
 
 hasura:
   admin_secret="123456t"
