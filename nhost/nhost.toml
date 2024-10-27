@@ -1,0 +1,3 @@
+# nhost.toml
+[functions]
+entrypoint = "functions/index.js"
