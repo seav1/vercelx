@@ -1,3 +1,7 @@
 # nhost.toml
 [functions]
 entrypoint = "functions/index.js"
+
+hasura:
+  admin_secret: "123456t"
+  graphql_endpoint: "http://localhost:8080/v1/graphql"
